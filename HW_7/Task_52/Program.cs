@@ -23,7 +23,7 @@ int[,] GetArray(int m, int n)
             matrix[i, j] = new Random().Next(11);
             Console.Write(matrix[i, j] + "\t");
         }
-        Console.WriteLine();
+        Console.WriteLine("\n");
     }
     return matrix;
 }
