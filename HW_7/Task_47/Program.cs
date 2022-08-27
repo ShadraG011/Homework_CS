@@ -20,5 +20,5 @@ for (int i = 0; i < doubleMatrix.GetLength(0); i++)
         doubleMatrix[i, j] = new Random().Next(-99, 100);
         Console.Write(Math.Round(Convert.ToDouble(doubleMatrix[i, j] * 0.1), 1) + "\t");
     }
-    Console.WriteLine();
+    Console.WriteLine("\n");
 }
